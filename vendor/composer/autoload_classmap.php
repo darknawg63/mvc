@@ -6,5 +6,9 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'App' => $baseDir . '/core/classes/App.php',
+    'Cake\\Utility\\Inflector' => $baseDir . '/core/classes/Inflector.php',
+    'Controller' => $baseDir . '/core/classes/Controller.php',
+    'Home' => $baseDir . '/app/controllers/Home.php',
     'User' => $baseDir . '/app/models/User.php',
 );

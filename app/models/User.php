@@ -7,7 +7,7 @@ class User extends Eloquent
     public $name;
 
     // Send an empty array if we don't want timestamps from Eloquent
-    //public $timestamps = [];
+    public $timestamps = [];
 
     protected $fillable = ['username', 'email'];
 }
